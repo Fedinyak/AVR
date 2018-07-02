@@ -1,0 +1,121 @@
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;
+*/
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.avr-banner-wrap {
+  background: #ff9933;
+}
+
+.avr-banner {
+  width: 100%;
+}
+
+.h1-wrap {
+  color: white;
+  margin-top: -1rem;
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  .h1-wrap {
+    margin-top: -5rem;
+    padding-top: 0;
+  }
+}
+
+.banner-header {
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 768px) {
+  .banner-header {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+}
+.cost {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .cost {
+    /* background: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px; */
+    margin-top: 1.6rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+}
+
+.header-wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-wrap {
+  background: #f6d6b0;
+}
+
+.features {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+@media (min-width: 768px) {
+  .features {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+}
+
+.features-p {
+  line-height: 1.3rem;
+}
+@media (min-width: 768px) {
+  .features-p {
+    line-height: 1.3rem;
+  }
+}
+
+.manual-link {
+  color: #1b75bc;
+}
+
+.btn-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.7rem;
+}
+
+.btn {
+  background: #ff9933;
+  color: white;
+  width: 270px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  outline: none;
+}
+
+.btn:hover {
+  background: #ffa343;
+}
+
+.btn:active {
+  background: #f7943c;
+}

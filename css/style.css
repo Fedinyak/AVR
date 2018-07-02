@@ -23,7 +23,7 @@ body {
   padding-top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .h1-wrap {
     margin-top: -5rem;
     padding-top: 0;
@@ -35,7 +35,7 @@ body {
   margin-bottom: 0.4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .banner-header {
     font-size: 2.3rem;
     margin-bottom: 1rem;
@@ -46,14 +46,13 @@ body {
   font-size: 1.5rem;
   font-weight: normal;
 }
-
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .cost {
     /* background: black;
   border-radius: 50%;
   height: 200px;
   width: 200px; */
-    margin-top: 1.6rem;
+    margin-top: 1.5rem;
     font-size: 2.8rem;
     font-weight: bold;
   }
@@ -72,7 +71,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .features {
     font-size: 1.4rem;
     line-height: 1.7rem;
@@ -82,7 +81,7 @@ body {
 .features-p {
   line-height: 1.3rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .features-p {
     line-height: 1.3rem;
   }
@@ -97,25 +96,27 @@ body {
   margin-right: auto;
   margin-top: 1.5rem;
   margin-bottom: 1.7rem;
+  width: 270px;
+  height: 40px;
+  background: #ff9933;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-wrap:hover {
+  background: #ffa343;
+}
+
+.btn-wrap:active {
+  background: #f7943c;
 }
 
 .btn {
-  background: #ff9933;
-  color: white;
-  width: 270px;
-  height: 40px;
-  border: none;
-  border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 2.5rem;
   outline: none;
-}
-
-.btn:hover {
-  background: #ffa343;
-}
-
-.btn:active {
-  background: #f7943c;
+  color: white;
+  text-decoration: none;
 }

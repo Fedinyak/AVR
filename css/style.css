@@ -38,13 +38,13 @@ h2 {
   font-size: 3.5rem;
   margin-bottom: 0.4rem;
 }
-
 @media (min-width: 991px) {
   .banner-header {
     font-size: 2.3rem;
     margin-bottom: 1rem;
   }
 }
+
 .cost {
   margin-top: 0;
   font-size: 5rem;
@@ -79,11 +79,11 @@ h2 {
 
 .features-p {
   font-size: 2rem;
-  line-height: 2.3rem;
+  line-height: 2.4rem;
 }
 @media (min-width: 992px) {
   .features-p {
-    line-height: 1.3rem;
+    line-height: 1.4rem;
     font-size: 1rem;
   }
 }
@@ -95,8 +95,8 @@ h2 {
 .btn-wrap {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
   width: 540px;
   height: 80px;
   background: #ff9933;
@@ -142,10 +142,18 @@ h2 {
   margin-bottom: 0;
 }
 
-.header-wrap-2 {
+.module-header {
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 991px) {
+  .module-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .img-avr-module {
@@ -157,12 +165,20 @@ h2 {
 .module-p {
   margin-top: -1.5rem;
   padding-top: 0;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+@media (min-width: 992px) {
+  .module-p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
 }
 
 .img-avr-measure {
   width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+ /* margin-top: 2rem;
+  margin-bottom: 2rem;*/
 }
 
 .img-avr-comparison {
@@ -175,12 +191,25 @@ h2 {
 }
 
 .benefit-header {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
   margin-bottom: 0;
+  font-size: 4rem;
+}
+@media (min-width: 992px) {
+  .benefit-header {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
 }
 
+.benefit-p-xs {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+}
+
+.benefit-p-lg {
+  margin-top: 0;
+}
 .img-avr-change {
   width: 100%;
 }
@@ -208,6 +237,12 @@ h2 {
 
 .img-avr-description {
   width: 100%;
+}
+
+.diagrem-header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .img-avr-diagram {

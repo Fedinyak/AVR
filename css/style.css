@@ -9,6 +9,10 @@ body {
   font-size: 1rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 .avr-banner-wrap {
   background: #ff9933;
 }
@@ -151,7 +155,7 @@ body {
 }
 
 .benefit-wrap {
-  background: #E6E7E8;
+  background: #e6e7e8;
   margin-bottom: 2rem;
 }
 
@@ -176,4 +180,54 @@ body {
 .feat {
   background: #ff9933;
   color: white;
+}
+
+.img-avr-controller {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.mode-wrap {
+  background: #f6d6b0;
+}
+
+.img-avr-description {
+  width: 100%;
+}
+
+.img-avr-diagram {
+  height: 100%;
+  width: 100%;
+}
+
+.img-avr-protector {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.plan-wrap {
+  background: #e6e7e8;
+  margin-bottom: 2rem;
+}
+
+.img-avr-plan {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.img-avr-installation-body {
+  width: 100%;
+}
+
+.avr-installation-wrap {
+  margin-top: -40rem;
+}
+
+.img-avr-installation {
+  width: 100%;
+}
+
+.img-avr-indicator {
+  width: 100%;
 }

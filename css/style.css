@@ -35,7 +35,7 @@ h2 {
 }
 
 .banner-header {
-  font-size: 1.5rem;
+  font-size: 5rem;
   margin-bottom: 0.4rem;
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 .cost {
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 5rem;
   font-weight: normal;
 }
 @media (min-width: 991px) {
@@ -67,8 +67,8 @@ h2 {
 }
 
 .features {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 3rem;
+  line-height: 3.4rem;
 }
 @media (min-width: 991px) {
   .features {
@@ -78,11 +78,13 @@ h2 {
 }
 
 .features-p {
-  line-height: 1.3rem;
+  font-size: 2rem;
+  line-height: 2.3rem;
 }
 @media (min-width: 991px) {
   .features-p {
     line-height: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -95,12 +97,20 @@ h2 {
   margin-right: auto;
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
-  width: 270px;
-  height: 40px;
+  width: 540px;
+  height: 80px;
   background: #ff9933;
   border: none;
   border-radius: 8px;
   text-align: center;
+}
+@media (min-width: 991px) {
+  .btn-wrap {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    width: 270px;
+    height: 40px;
+  }
 }
 
 .btn-wrap:hover {
@@ -112,12 +122,17 @@ h2 {
 }
 
 .btn {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 5rem;
   outline: none;
   color: white;
   text-decoration: none;
+}
+@media (min-width: 991px) {
+  .btn{
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+  }
 }
 
 .header-wrap {
@@ -230,4 +245,15 @@ h2 {
 
 .img-avr-indicator {
   width: 100%;
+  margin-bottom: 8rem;
+}
+
+.offer-wrap {
+  background: #f6d6b0;
+}
+
+
+.img-avr-p {
+  width: 100%;
+  margin-top: -6rem;
 }

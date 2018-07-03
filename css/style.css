@@ -81,7 +81,7 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .features-p {
     line-height: 1.4rem;
     font-size: 1rem;
@@ -168,7 +168,7 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .module-p {
     font-size: 1rem;
     line-height: 1.4rem;
@@ -194,7 +194,7 @@ h2 {
   margin-bottom: 0;
   font-size: 4rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   .benefit-header {
     margin-bottom: 1rem;
     font-size: 3rem;

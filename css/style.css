@@ -35,7 +35,7 @@ h2 {
 }
 
 .banner-header {
-  font-size: 5rem;
+  font-size: 3.5rem;
   margin-bottom: 0.4rem;
 }
 
@@ -67,8 +67,8 @@ h2 {
 }
 
 .features {
-  font-size: 3rem;
-  line-height: 3.4rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 @media (min-width: 991px) {
   .features {
@@ -81,7 +81,7 @@ h2 {
   font-size: 2rem;
   line-height: 2.3rem;
 }
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .features-p {
     line-height: 1.3rem;
     font-size: 1rem;

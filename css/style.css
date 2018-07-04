@@ -260,6 +260,7 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
   margin-top: 0.8rem;
+  margin-bottom: 4rem;
 }
 @media (min-width: 991px) {
   .change-p {
@@ -272,12 +273,10 @@ h2 {
 
 .feat-background-mobile {
   background: #ff9933;
-  margin-bottom: 1rem;
 }
 @media (min-width: 991px) {
   .feat-background-mobile {
     background: white;
-    margin-bottom: 1rem;
   }
 }
 
@@ -322,9 +321,10 @@ h2 {
 }
 @media (min-width: 991px) {
   .feat-title {
-    margin-top: 0;
-    font-size: 1rem;
-    line-height: 1.4rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -332,14 +332,14 @@ h2 {
   font-size: 2rem;
   line-height: 2.4rem;
   margin-top: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 @media (min-width: 991px) {
   .feat-p-2 {
     margin-top: 0;
     margin-bottom: 3rem;
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -348,22 +348,21 @@ h2 {
   margin-top: 4rem;
 }
 @media (min-width: 991px) {
-  .feat-p-2 {
+  .img-avr-controller {
     margin-top: 2rem;
   }
 }
-/*---------------------------------------------------------*/
-
-/*---------------------------------------------------------*/
 
 .controller-header {
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 @media (min-width: 991px) {
   .controller-header {
     text-align: left;
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -379,6 +378,71 @@ h2 {
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.35rem;
+  }
+}
+/*---------------------------------------------------------*/
+
+.properties-header {
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+@media (min-width: 991px) {
+  .properties-header {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+}
+
+.properties-feat {
+  margin-top: 0.9rem;
+  margin-bottom: 0;
+  font-size: 4rem;
+  color: #ff9933;
+}
+@media (min-width: 991px) {
+  .properties-feat {
+    margin-top: 0.9rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: #ff9933;
+  }
+}
+
+.properties-feat-p {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 991px) {
+  .properties-feat-p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+
+.properties-p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-top: 0.8rem;
+}
+@media (min-width: 991px) {
+  .properties-p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+
+.properties-p-wrap {
+  margin-top: -2.2rem;
+}
+@media (min-width: 991px) {
+  .properties-p-wrap {
+    margin-top: 0;
   }
 }
 

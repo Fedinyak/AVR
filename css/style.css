@@ -17,6 +17,92 @@ h2 {
   font-size: 2rem;
 }
 
+.alektrion-logo-wrap {
+text-align: center;
+border-bottom: 1px #999999 solid; 
+}
+@media (min-width: 991px) {
+  .alektrion-logo-wrap {
+    border: none; 
+  }
+}
+
+.alektrion-logo {
+  align-content: center;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+@media (min-width: 991px) {
+  .alektrion-logo {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.tel-title {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #666666;
+}
+@media (min-width: 991px) {
+  .tel-title {
+    font-size: 0.8rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0;
+    color: #666666;
+  }
+}
+
+.tel {
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+}
+@media (min-width: 991px) {
+  .tel {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+  }
+}
+
+.mail-a {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+}
+
+.nav-link-line {
+  margin-top: 0;
+  border-top: 1px #999999 solid; 
+}
+
+.nav-link-wrap {
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 991px) {
+  .nav-link-wrap {
+    margin-bottom: 0.7rem;
+  }
+}
+
+.nav-link {
+  margin-top: 0;
+  margin-right: 2rem;
+}
+
+.nav-link-last {
+  margin-top: 0;
+}
+
 .avr-banner-wrap {
   background: #ff9933;
 }
@@ -30,7 +116,6 @@ h2 {
   margin-top: -1rem;
   padding-top: 0;
 }
-
 @media (min-width: 991px) {
   .h1-wrap {
     margin-top: -5rem;
@@ -187,7 +272,13 @@ h2 {
 
 .benefit-wrap {
   background: #e6e7e8;
+  margin-top: 2rem;
   margin-bottom: 2rem;
+}
+@media (min-width: 991px) {
+  .benefit-wrap {
+    margin-bottom: 2rem;
+  }
 }
 
 .benefit-header {
@@ -196,6 +287,7 @@ h2 {
 }
 @media (min-width: 991px) {
   .benefit-header {
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 3rem;
   }
@@ -525,7 +617,6 @@ h2 {
   }
 }
 
-
 .diagrem-header {
   font-size: 3rem;
   margin-top: 4rem;
@@ -550,21 +641,20 @@ h2 {
 }
 @media (min-width: 991px) {
   .img-avr-diagram {
-  margin-bottom: 0;
-
+    margin-bottom: 0;
   }
 }
 
 .diagram-title {
-font-size: 2rem;
-margin-top: 0;
-margin-bottom: 0.2rem;
-padding-bottom: 0;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0;
 }
 @media (min-width: 991px) {
   .diagram-title {
-  margin-bottom: 0.3rem;
-  font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -617,7 +707,7 @@ padding-bottom: 0;
   }
 }
 
-.installation-header  {
+.installation-header {
   font-size: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -625,7 +715,7 @@ padding-bottom: 0;
   line-height: 3rem;
 }
 @media (min-width: 991px) {
-  .installation-header  {
+  .installation-header {
     font-size: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -638,27 +728,27 @@ padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0.2rem;
   padding-bottom: 0;
-  }
-  @media (min-width: 991px) {
-    .installation-title {
+}
+@media (min-width: 991px) {
+  .installation-title {
     margin-bottom: 0.3rem;
     font-size: 1.4rem;
-    }
   }
+}
 
 .installation-p {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 4rem;
   line-height: 2.6rem;
-  }
-  @media (min-width: 991px) {
-    .installation-p {
+}
+@media (min-width: 991px) {
+  .installation-p {
     margin-bottom: 0.3rem;
     font-size: 1rem;
     line-height: 1.2rem;
-    }
   }
+}
 
 .indicator-header {
   font-size: 3rem;
@@ -668,7 +758,7 @@ padding-bottom: 0;
   line-height: 3rem;
 }
 @media (min-width: 991px) {
-  .indicator-header  {
+  .indicator-header {
     font-size: 2rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -686,7 +776,7 @@ padding-bottom: 0;
   margin-top: 8rem;
 }
 @media (min-width: 991px) {
-  .offer-wrap  {
+  .offer-wrap {
     margin-top: 0;
   }
 }
@@ -696,19 +786,19 @@ padding-bottom: 0;
   margin-top: -12rem;
 }
 @media (min-width: 991px) {
-  .img-avr-p  {
+  .img-avr-p {
     margin-top: -6rem;
   }
 }
 
-.footer-cost{
+.footer-cost {
   font-size: 5rem;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
 }
 @media (min-width: 991px) {
-  .footer-cost{
+  .footer-cost {
     font-size: 4rem;
     font-weight: bold;
     margin-top: 0;
@@ -767,11 +857,108 @@ padding-bottom: 0;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 3rem;
- }
- @media (min-width: 991px) {
+}
+@media (min-width: 991px) {
   .footer-desc {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 3rem;
-   }
+  }
 }
+
+footer {
+  background: #ff9933;
+  color: white;
+  padding-bottom: 4rem;
+}
+@media (min-width: 991px) {
+  footer {
+    padding-bottom: 0;
+  }
+}
+
+.footer-link-line {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px white solid;
+}
+@media (min-width: 991px) {
+  .footer-link-line {
+    margin-top: 0;
+    border: none;
+  }
+}
+
+.footer-link-wrap {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 991px) {
+  .footer-link-wrap {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.footer-link {
+  margin-top: 2rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  color: white;
+}
+@media (min-width: 991px) {
+  .footer-link {
+    margin-top: 2rem;
+    line-height: 1.4rem;
+    font-size: 1rem;
+    color
+  }
+}
+
+.footer-link-contacts {
+  margin-bottom: 2.4rem;
+}
+
+
+.footer-tel-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+@media (min-width: 991px) {
+  .footer-tel-title {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.footer-tel {
+  font-size: 1.8rem;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 991px) {
+  .footer-tel {
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+  }
+}
+
+.footer-mail-link {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: white;
+}
+@media (min-width: 991px) {
+  .footer-mail-link {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+}
+
+
+
